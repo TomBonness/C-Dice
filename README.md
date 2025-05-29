@@ -1,13 +1,13 @@
 # 🎲 Dice Roller (C)
 
-A simple terminal dice rolling simulator written in C. Rolls a 6-sided die 10 times, stores each result along with a timestamp, and displays the full roll history and average value.
+A simple terminal dice rolling simulator written in C. Rolls a 6-sided die 25 times, stores each result along with a timestamp, and displays the full roll history and average value.
 
 ---
 
 ## 🕹 How to Run
 
 ```bash
-./roller
+./dice
 ```
 
 You’ll see a list of 25 dice rolls with timestamps and the calculated average at the end.
@@ -22,7 +22,7 @@ gcc main.c -o roller
 
 ---
 
-## 🌟 Bonus Features
+## 🌟 Info
 
 - Timestamp for each roll using `ctime()`
 - Newline removal using `strcspn()`
